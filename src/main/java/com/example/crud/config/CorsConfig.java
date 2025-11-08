@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("url-vercel")///Aqui agregar la url de vercel del frontend///
+                        .allowedOrigins("https://frontend-fs-v-steel.vercel.app/")///Aqui agregar la url de vercel del frontend///
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedHeaders("*");
             }
